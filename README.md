@@ -10,15 +10,15 @@ Maven surefire plugin is used for running tests from terminal
 
 #### To clean the project
 
-**mvn clean**
+> **mvn clean**
 
 #### TO run test
 
-**mvn compile**
+> **mvn compile**
 
-**mvn test** 
+> **mvn test** 
 (_Though running mvn test will compile too_)
 
 #### To ignore the failed tests
 
-**mvn -Dmaven.test.failure.ignore=true test**
+> **mvn -Dmaven.test.failure.ignore=true test**
